@@ -1,0 +1,38 @@
+.story-panel,
+.ending-panel {
+  width: min(760px, 94vw);
+  border: 1px solid var(--line);
+  background: var(--panel);
+  padding: 42px;
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.42);
+  backdrop-filter: blur(10px);
+}
+
+.story-panel h1,
+.ending-panel h1 {
+  font-size: clamp(32px, 5vw, 54px);
+  font-weight: 400;
+  margin: 12px 0 22px;
+}
+
+.story-text {
+  line-height: 1.95;
+  font-size: 18px;
+  margin: 28px 0;
+  color: var(--text);
+}
+
+.story-text p {
+  margin: 0 0 14px;
+}
+
+.choices {
+  display: grid;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.choice-button {
+  text-align: left;
+  font-size: 16px;
+}

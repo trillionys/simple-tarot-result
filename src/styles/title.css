@@ -1,0 +1,24 @@
+.title-screen {
+  text-align: center;
+}
+
+.title-panel {
+  width: min(720px, 92vw);
+  border: 1px solid var(--line);
+  padding: 56px 36px;
+  background: var(--panel);
+  box-shadow: 0 0 70px rgba(119, 75, 255, 0.22);
+  backdrop-filter: blur(10px);
+}
+
+.title-panel h1 {
+  font-size: clamp(44px, 8vw, 82px);
+  font-weight: 400;
+  margin: 16px 0;
+  letter-spacing: 0.06em;
+}
+
+.subtitle {
+  color: var(--muted);
+  margin-bottom: 32px;
+}
